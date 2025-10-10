@@ -1,0 +1,24 @@
+function Info_Details(props)
+{
+  return(
+  <>
+  <h1>Name:{props.name}</h1>
+  <h1>age:{props.age}</h1>
+  <h1>depart:{props.depart}</h1>
+  <h1>mobile no:{props.mobile_no}</h1>
+
+  </>
+  );
+
+}
+function App()
+{
+  return(
+    <>
+    <Info_Details name="chaitanya" age={20} depart="compuetr" mobile_no="xxxxxxxxxx"/>
+    </>
+
+  );
+}
+export default App;
+
